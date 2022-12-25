@@ -365,10 +365,8 @@ name = "password-generator"
 version = "0.1.0"
 dependencies = [
  "arboard",
- "getrandom",
  "rand",
  "rand_isaac",
- "x11-clipboard",
 ]
 
 [[package]]
@@ -620,15 +618,6 @@ name = "windows_x86_64_msvc"
 version = "0.42.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f40009d85759725a34da6d89a94e63d7bdc50a862acf0dbc7c8e488f1edcb6f5"
-
-[[package]]
-name = "x11-clipboard"
-version = "0.7.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0827f86aa910c4e73329a4f619deabe88ebb4b042370bf023c2d5d8b4eb54695"
-dependencies = [
- "x11rb",
-]
 
 [[package]]
 name = "x11rb"

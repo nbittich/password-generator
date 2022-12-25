@@ -7,7 +7,5 @@ edition = "2021"
 
 [dependencies]
 arboard = "3.2.0"
-getrandom = "0.2.8"
 rand = "0.8.5"
 rand_isaac = "0.3.0"
-x11-clipboard = "0.7.0"

@@ -1,0 +1,1 @@
+cargo run -- --strength 32
